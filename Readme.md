@@ -1,4 +1,4 @@
-# CoronaVirus Panel
+# Barra Anti-Corona
 * Alert Panel para colocar numa WebPage. Para fazer isso basta colocar no arquivo de destino o seguinte endereço: [https://escoladesaudepublica.github.io/coronavirus-alert-panel/](https://escoladesaudepublica.github.io/coronavirus-alert-panel/) em um arquivo embed no topo da tag ```<body>```
 ## Embed:
 ```html
