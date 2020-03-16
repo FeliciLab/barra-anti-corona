@@ -7,4 +7,4 @@
 * Caso necessário, [remova a tag de embed via javascript](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/removeChild):
 
 * Exemplo:
-!['ScreenShot'](https://escoladesaudepublica.github.io/screenshot.png)
+!['ScreenShot'](https://escoladesaudepublica.github.io/coronavirus-alert-panel/screenshot.png)
