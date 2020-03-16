@@ -5,3 +5,6 @@
     <embed width="100%" height="50px" src="https://escoladesaudepublica.github.io/coronavirus-alert-panel/">
 ```
 * Caso necessário, [remova a tag de embed via javascript](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/removeChild):
+
+* Exemplo:
+!['ScreenShot'](https://escoladesaudepublica.github.io/screenshot.png)
