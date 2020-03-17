@@ -12,7 +12,7 @@ Para ativar, basta copiar o código abaixo dentro da tag ```<body>``` do seu sit
 ```html
 
     <embed width="100%" height="50px" 
-           style="position:absolute; z-index: 100001;" 
+           style="position:absolute; z-index: 100001; top:0;" 
            src="https://escoladesaudepublica.github.io/barra-anti-corona/">
 
 ```
