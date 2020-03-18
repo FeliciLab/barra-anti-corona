@@ -25,5 +25,11 @@ Se desejar alterar o plano de fundo da aplicação, adicione também o atributo 
 <script src="https://escoladesaudepublica.github.io/barra-anti-corona/barra-anti-corona.js" data-uf="UF" data-color="#ff00ff"></script>
 ```
 
+A barra pode ser aplicada a uma determinada div através de um ID específicado no atributo `data-divid`. Assim, o script deve ser inserido após essa div, seja no fim do arquivo ou não.
+
+```html
+<script src="https://escoladesaudepublica.github.io/barra-anti-corona/barra-anti-corona.js" data-uf="UF" data-divid="minha-div-barra-corona"></script>
+```
+
 ## Exemplo:
 !['ScreenShot'](https://escoladesaudepublica.github.io/barra-anti-corona/screenshot.png)

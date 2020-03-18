@@ -31,6 +31,7 @@ var bar_corona_url_estados = {
   to: 'https://saude.to.gov.br/cievs---centro-de-informacoes-estrategicas-de-vigilancia-em-saude/coronavirus-covid-19/'
 }
 /*************************/
+var bar_corona_div_id_selector = document.currentScript.getAttribute('data-divid')
 var bar_corona_bg_color = document.currentScript.getAttribute('data-color') ? document.currentScript.getAttribute('data-color') : '#fc6836';
 var bar_corona_atributo_uf = document.currentScript.getAttribute('data-uf');
 var bar_corona_url_uf_selecionado = bar_corona_atributo_uf && bar_corona_url_estados.hasOwnProperty(bar_corona_atributo_uf.toLowerCase()) ? bar_corona_url_estados[bar_corona_atributo_uf.toLowerCase()] : bar_corona_url_estados.ce
@@ -47,4 +48,8 @@ var htmlBarAnticorona = `
   </div>
 </div>
 `
-document.body.innerHTML = htmlBarAnticorona + document.body.innerHTML
+if (bar_corona_div_id_selector) {
+  document.getElementById(bar_corona_div_id_selector).innerHTML = htmlBarAnticorona + document.getElementById(bar_corona_div_id_selector).innerHTML
+} else {
+  document.body.innerHTML = htmlBarAnticorona + document.body.innerHTML
+}
