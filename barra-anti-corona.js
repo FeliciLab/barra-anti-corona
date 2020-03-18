@@ -29,9 +29,6 @@ var bar_corona_url_estados = {
   sp: 'http://saopaulo.sp.gov.br/coronavirus/',
   se: 'https://www.saude.se.gov.br/?p=38287',
   to: 'https://saude.to.gov.br/cievs---centro-de-informacoes-estrategicas-de-vigilancia-em-saude/coronavirus-covid-19/'
-
-
-
 }
 /*************************/
 var bar_corona_bg_color = document.currentScript.getAttribute('data-color') ? document.currentScript.getAttribute('data-color') : '#fc6836';
