@@ -8,7 +8,7 @@ A barra contém um link que fará o direcionamento do usuário para a página de
 
 A barra será adicionada ao inicio do body do seu site, havendo a possibilidade de fechá-la se o usuário assim desejar.
 
-O arquivo com as definições das URLs dos estádos é o:  
+O arquivo com as definições das URLs dos estados é o:  
 [barra-anti-corona.js](https://github.com/EscolaDeSaudePublica/barra-anti-corona/blob/master/barra-anti-corona.js)
 
 ## Como utilizar?
