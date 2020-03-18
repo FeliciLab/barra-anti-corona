@@ -1,5 +1,5 @@
 # Barra AntiCorona
-![image](https://user-images.githubusercontent.com/89998/76819343-a238ec80-67e6-11ea-966e-840cc539b432.png)
+![image](https://escoladesaudepublica.github.io/barra-anti-corona/barra-anti-corona.png)
 
 A **Barra AntiCorona** tem o objetivo de ser um meio fácil atribuir a **qualquer site** um alerta que irá redirecionar à uma fonte
 segura de informação governamental de um orgão publico de saúde, podendo ser espefífica de cada estado.
