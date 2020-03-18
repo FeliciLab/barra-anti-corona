@@ -1,7 +1,7 @@
 # Barra AntiCorona
 ![image](https://escoladesaudepublica.github.io/barra-anti-corona/barra-anti-corona.png)
 
-A **Barra AntiCorona** tem o objetivo de ser um meio fácil de atribuir a **qualquer site** um alerta que irá redirecionar à uma fonte de informação confiável  sobre o Coronavírus (Covid-19) de um orgão público de saúde, podendo ser específica para cada estado.
+A **Barra AntiCorona** tem o objetivo de ser um meio fácil de atribuir a **qualquer site** um alerta que irá redirecionar à uma fonte de informação confiável  sobre o Coronavírus (Covid-19) de um orgão público da saúde, podendo ser específica para cada estado.
 
 A barra contém um link que fará o direcionamento do usuário para a página de informação oficinal.
 É possível alterar a cor do plano de fundo, para melhor condizer com seu site, e dizer qual estado você pretende redirecionar.
