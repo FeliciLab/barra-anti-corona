@@ -2,10 +2,39 @@
  * Contribua no objeto abaixo atribuindo com seu estado o site de referência sobre coronavírus
  */
 var bar_corona_url_estados = {
-  ce: 'https://www.saude.ce.gov.br/coronavirus-covid-19/'
+  br: 'https://saude.gov.br/',
+  ac: 'http://saude.acre.gov.br/',
+  al: 'http://www.saude.al.gov.br/',
+  ap: 'http://amapa.gov.br/coronavirus',
+  am: 'http://www.saude.am.gov.br/painel/corona/',
+  ba: 'http://www.saude.ba.gov.br/coronavirus',
+  ce: 'https://www.saude.ce.gov.br/coronavirus-covid-19/',
+  df: 'http://www.saude.df.gov.br/coronavirus/',
+  es: 'https://saude.es.gov.br/',
+  go: 'http://www.saude.go.gov.br/component/content/article/34-page/9895-coronav%C3%ADrus.html?highlight=WyJjb3JvbmF2XHUwMGVkcnVzIl0=&Itemid=101',
+  ma: 'http://www.saude.ma.gov.br/',
+  mt: 'http://www.saude.mt.gov.br/informe/581',
+  ms: 'http://www.saude.ms.gov.br/covid-19/',
+  mg: 'http://www.saude.mg.gov.br/coronavirus',
+  pa: 'http://www.saude.pa.gov.br/coronavirus/',
+  pb: 'https://paraiba.pb.gov.br/diretas/saude/coronavirus/coronavirus',
+  pr: 'http://coronavirus.pr.gov.br/',
+  pe: 'http://portal.saude.pe.gov.br/',
+  pi: 'http://www.saude.pi.gov.br/',
+  rj: 'http://coronavirusrj.com.br/',
+  rn: 'http://www.saude.rn.gov.br/Conteudo.asp?TRAN=ITEM&TARG=223456&ACT=&PAGE=&PARM=&LBL=MAT%C9RIA',
+  ro: 'http://www.rondonia.ro.gov.br/agevisa/institucional/coronavirus/',
+  rr: 'https://www.saude.rr.gov.br/index.php/informacoesx/coronavirus/informacoes-coronavirus',
+  sc: 'http://www.saude.sc.gov.br/coronavirus/',
+  sp: 'http://saopaulo.sp.gov.br/coronavirus/',
+  se: 'https://www.saude.se.gov.br/?p=38287',
+  to: 'https://saude.to.gov.br/cievs---centro-de-informacoes-estrategicas-de-vigilancia-em-saude/coronavirus-covid-19/'
+
+
+
 }
 /*************************/
-var bar_corona_bg_color = document.currentScript.getAttribute('data-uf') ? document.currentScript.getAttribute('data-uf') : '#fc6836';
+var bar_corona_bg_color = document.currentScript.getAttribute('data-color') ? document.currentScript.getAttribute('data-color') : '#fc6836';
 var bar_corona_atributo_uf = document.currentScript.getAttribute('data-uf');
 var bar_corona_url_uf_selecionado = bar_corona_atributo_uf && bar_corona_url_estados.hasOwnProperty(bar_corona_atributo_uf.toLowerCase()) ? bar_corona_url_estados[bar_corona_atributo_uf.toLowerCase()] : bar_corona_url_estados.ce
 var htmlBarAnticorona = `
