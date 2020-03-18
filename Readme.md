@@ -15,7 +15,7 @@ O arquivo com as definições das URLs dos estádos é o:
 
 ## Como utilizar?
 
-Basta adicionar em qualquer espaço do html do seu site a seguinte linha e alterar a UF de acordo com seu estado:
+Basta adicionar em qualquer espaço do html do seu site a seguinte linha e alterar a UF de acordo com seu estado, `se desejar utilizar a URL saude.gov.br inserir BR`:
 
 ```html
 <script src="https://escoladesaudepublica.github.io/barra-anti-corona/barra-anti-corona.js" data-uf="UF"></script>
