@@ -8,7 +8,7 @@ var bar_corona_url_estados = {
   ap: 'http://amapa.gov.br/coronavirus',
   am: 'http://www.saude.am.gov.br/painel/corona/',
   ba: 'http://www.saude.ba.gov.br/coronavirus',
-  ce: 'https://www.saude.ce.gov.br/coronavirus-covid-19/',
+  ce: 'http://coronavirus.ceara.gov.br/',
   df: 'http://www.saude.df.gov.br/coronavirus/',
   es: 'https://saude.es.gov.br/',
   go: 'http://www.saude.go.gov.br/component/content/article/34-page/9895-coronav%C3%ADrus.html?highlight=WyJjb3JvbmF2XHUwMGVkcnVzIl0=&Itemid=101',
