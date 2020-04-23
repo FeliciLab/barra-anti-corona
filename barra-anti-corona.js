@@ -43,7 +43,7 @@ var htmlBarAnticorona = `
           <div style="width: 100%; text-align:left; padding-left: 20px">
               <a target="_blank" title="Link Coronavírus: Saiba o que fazer" href="${bar_corona_url_uf_selecionado}" style="color: azure !important; text-decoration: none !important; font-size: 14pt !important; font-style: normal !important;" > <strong style="color: azure !important; font-size: 15pt !important; font-style: normal !important;">CORONAVÍRUS</strong>:&nbsp;Saiba o que fazer </a>
           </div>
-          <div onclick="document.getElementById('body-js-content-esp-saude-barra-anti-corona').innerHTML = '';" style="padding: 0 2.5rem"> <div style="filter: grayscale(100%) brightness(0) invert(1); width: 24px; height: 24px;"> <svg viewBox="0 0 24 24"> <path d="M8.27,3L3,8.27V15.73L8.27,21H15.73C17.5,19.24 21,15.73 21,15.73V8.27L15.73,3M9.1,5H14.9L19,9.1V14.9L14.9,19H9.1L5,14.9V9.1M9.12,7.71L7.71,9.12L10.59,12L7.71,14.88L9.12,16.29L12,13.41L14.88,16.29L16.29,14.88L13.41,12L16.29,9.12L14.88,7.71L12,10.59"/> </svg> </div> </div>
+          <div onclick="document.getElementById('body-js-content-esp-saude-barra-anti-corona').innerHTML = '';" style="padding: 0 2.5rem"> <div style="filter: grayscale(100%) brightness(0) invert(1); width: 24px; height: 24px; cursor: pointer;"> <svg viewBox="0 0 24 24"> <path d="M8.27,3L3,8.27V15.73L8.27,21H15.73C17.5,19.24 21,15.73 21,15.73V8.27L15.73,3M9.1,5H14.9L19,9.1V14.9L14.9,19H9.1L5,14.9V9.1M9.12,7.71L7.71,9.12L10.59,12L7.71,14.88L9.12,16.29L12,13.41L14.88,16.29L16.29,14.88L13.41,12L16.29,9.12L14.88,7.71L12,10.59"/> </svg> </div> </div>
       </div>
   </div>
 </div>
